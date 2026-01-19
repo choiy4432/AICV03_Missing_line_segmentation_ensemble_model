@@ -13,12 +13,13 @@ text
 
 
 📋 Pipeline
+```
 [Image] → YOLOv8(occlusion mask) → LaMa inpaint → Seg(DeepLabV3+) → Ensemble
   ↓              ↓                    ↓                ↓             ↓
 P_A ← 원본이미지                   P_B ← inpainted    M_occ → rule-based
                                                  ↓
                                             P_final = (1-M)*P_A + M*P_B
-
+```
 📁 Folder Structure
 ```
 loid_cityscapes/
