@@ -1,4 +1,4 @@
-# AICV03 Missing Line Segmentation Ensemble Model (앙차생)
+# Missing Line Segmentation Ensemble Model (앙차생)
 **Occlusion-Aware Drivable Area Segmentation Pipeline**  
 YOLO 기반 가림(occlusion) 탐지 → Inpainting 복구 → Segmentation → (Mask-aware) Ensemble로 **가려진 도로 영역 인식 성능을 개선**하는 프로젝트입니다.
 
